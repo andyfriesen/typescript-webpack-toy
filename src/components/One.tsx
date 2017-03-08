@@ -1,5 +1,5 @@
 
-import * as Two from "./Two";
+import * as Two from "components/Two";
 
 export function hello() {
     console.log("One");
