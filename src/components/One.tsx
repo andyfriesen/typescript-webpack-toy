@@ -1,7 +1,12 @@
 
 import * as Two from "components/Two";
+import * as React from "react";
 
-export function hello() {
-    console.log("One");
-    Two.hello();
+export { hello } from "components/Two";
+
+export class Hello extends React.Component<{}, {}> {
+    render() {
+        debugger;
+        return <div>hello!</div>;
+    }
 }
